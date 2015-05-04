@@ -22,4 +22,20 @@ public class Test {
         assertNotSame("Harusnya", "10", s.perkalian(1, 5));
     }
     
+    public void test3() {
+        assertNotSame("Test pangkat", s.pangkat(2, 2));
+    }
+    
+    public void test4() {
+        assertSame("Test pangkat", "4", s.pangkat(2, 2));
+    }
+    
+    public void test5() {
+        assertSame("Test faktorial", " ", s.faktorial(2));
+    }
+    
+    public void test6() {
+        assertSame("Test faktorial", " ", s.faktorial(3));
+    }
+    
 }
